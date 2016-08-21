@@ -14,7 +14,7 @@
 	$categoryConfig  = array_merge($categoryConfig, $themeConfig );
 	$MAX_ITEM_ROW       = $categoryConfig['cateogry_product_row'];
 	$DISPLAY_MODE 	 = $categoryConfig['cateogry_display_mode'];
-	$MAX_ITEM_ROW 	 = $themeConfig['listing_products_columns']?$themeConfig['listing_products_columns']:3; 
+	$MAX_ITEM_ROW 	 = 3;//$themeConfig['listing_products_columns']?$themeConfig['listing_products_columns']:3; 
 	$MAX_ITEM_ROW_SMALL = $categoryConfig['listing_products_columns_small']?$categoryConfig['listing_products_columns_small']:2;
 	$MAX_ITEM_ROW_MINI  = $categoryConfig['listing_products_columns_minismall']?$categoryConfig['listing_products_columns_minismall']:1; 
 	$categoryPzoom 	    = $categoryConfig['category_pzoom']; 

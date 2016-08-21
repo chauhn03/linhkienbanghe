@@ -226,7 +226,7 @@ $class = $helper->calculateSpans( $ospans, $cols );
 			<?php echo $themeConfig['copyright'];?>
 		<?php } else { ?>
 		<?php } ?>
-			© Bản quyền thuộc công ty ABC 2016.
+			© Bản quyền thuộc công ty cổ phần zhome 2016.
 	</div></div>
 </section>
 
